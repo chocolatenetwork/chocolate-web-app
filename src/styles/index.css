@@ -1,15 +1,30 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&display=swap");
+
 * {
-  /* resets */
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+@font-face {
+  font-family: "GlacialIndifference";
+  src: url("../fonts/glacial-indifference/GlacialIndifference-Regular.otf");
+}
+@font-face {
+  font-family: "GlacialIndifference";
+  src: url("../fonts/glacial-indifference/GlacialIndifference-Italic.otf");
+  font-style: italic;
+}
+@font-face {
+  font-family: "GlacialIndifference";
+  src: url("../fonts/glacial-indifference/GlacialIndifference-Bold.otf");
+  font-weight: bold;
+}
 :root {
   /* topography */
-  font-family: "Poppins", sans-serif;
+
+  font-family: "GlacialIndifference", sans-serif;
   font-size: 16px;
-  font-weight: 500;
+  font-weight: normal;
 }
 .main-wrap {
   /* window init */
