@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { IoWalletOutline } from "react-icons/io5";
+import WalletPurple from '../../assets/wallet-purple.svg';
 import "./index.css";
 /**
  * @description calls async load accounts
@@ -86,7 +86,7 @@ function Wallet() {
   return (
     <section className='wallet'>
       <button className='wallet_btn' onClick={handleModal}>
-        <IoWalletOutline className='wallet_icon' color='#8c52ff' title='Wallet' />
+        <img src={WalletPurple} alt="Wallet" className='wallet-icon' />
       </button>
       {/* Position absolute, start at leftmost part */}
       <Modal />

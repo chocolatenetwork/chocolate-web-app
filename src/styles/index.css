@@ -20,6 +20,13 @@
   font-weight: bold;
 }
 :root {
+  --color-primary: #8c52ff;
+  --color-primary-light: hsl(260, 100%, 66%, 0.79);
+  --color-primary-search: hsl(260, 100%, 66%, 0.33);
+  --color-primary-sep: hsl(260, 100%, 66%, 0.5);
+  --color-btn-highlight:hsl(260, 100%, 66%,0.22);;
+  --color-btn-rev: #cb6ce6;
+  --color-background-grey: #fbfdfe;
   /* topography */
 
   font-family: "GlacialIndifference", sans-serif;
